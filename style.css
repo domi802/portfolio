@@ -320,7 +320,7 @@ header .follow a:hover {
 }
 
 .apps .box-container .box {
-    flex: 1 1 30rem;
+    flex: 1 1 40rem;
     height: 65rem;
     position: relative;
     overflow: hidden;
