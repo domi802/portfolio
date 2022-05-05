@@ -52,3 +52,27 @@ document.addEventListener("DOMContentLoaded", function() {
         backgroundCanvas.style.height = "100%";
     })
 })
+
+
+
+
+const cards = document.querySelectorAll('.card__inner');
+
+
+  cards.forEach((card) =>{
+    card.addEventListener("click", function (e){
+        card.classList.toggle('is-flipped');
+    });
+});
+
+
+const links = document.querySelectorAll('.card__body a ');
+
+links.forEach((link) =>{
+    link.addEventListener("click", function (d){
+       
+
+        d.stopPropagation();
+    });
+    
+});
