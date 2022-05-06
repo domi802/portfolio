@@ -237,7 +237,8 @@ header .follow a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5rem;
+ 
+    
  
 
     
@@ -530,6 +531,10 @@ header .follow a:hover {
 
     .prices .box-container .box {
         padding-right: 0;
+    }
+
+    .card{
+        width: 40rem;
     }
 
 }
