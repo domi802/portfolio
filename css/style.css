@@ -493,7 +493,7 @@ header .follow a:hover {
 
 
 
-@media (max-width:991px) {
+@media (max-width:1300px) {
 
     html {
         font-size: 55%;
@@ -515,6 +515,11 @@ header .follow a:hover {
         left: 0%;
     }
 
+    .card{
+        padding-top: 40px;
+        width: 40rem;
+    }
+
 
 
 }
@@ -534,6 +539,7 @@ header .follow a:hover {
     }
 
     .card{
+        padding-top: 30px;
         width: 40rem;
     }
 
