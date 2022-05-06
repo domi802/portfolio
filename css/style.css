@@ -266,6 +266,7 @@ header .follow a:hover {
     width: 22vw;
    height: 100%;
    perspective: 100vh;
+   padding-top: 30px;
 
   }
   
